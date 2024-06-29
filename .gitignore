@@ -1,9 +1,110 @@
-node_modules
-dist
-out
 .DS_Store
-*.log*
 .env
-.env*
-*.env*
-.vscode
+.gclient_done
+**/.npmrc
+.tags*
+.vs/
+.vscode/
+*.log
+*.pyc
+*.sln
+*.swp
+*.VC.db
+*.VC.VC.opendb
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.xcodeproj
+/.idea/
+/dist/
+node_modules/
+SHASUMS256.txt
+**/package-lock.json
+compile_commands.json
+.envrc
+
+# npm package
+/npm/dist
+/npm/path.txt
+/npm/checksums.json
+
+.npmrc
+
+# Generated API definitions
+electron-api.json
+electron.d.ts
+
+# Spec hash calculation
+spec/.hash
+
+# Eslint Cache
+.eslintcache*
+
+# Generated native addon files
+/spec/fixtures/native-addon/echo/build/
+
+# If someone runs tsc this is where stuff will end up
+ts-gen
+
+# Used to accelerate CI builds
+.depshash
+.depshash-target
+
+# Used to accelerate builds after sync
+patches/mtime-cache.json
+
+spec/fixtures/logo.png
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directory
+**/node_modules/**
+_node_modules
+.pnp.cjs
+
+# Coverage directory used by tools like istanbul
+coverage
+
+.tmp
+_docpress
+.DS_Store
+
+lib
+dist
+tsconfig.tsbuildinfo
+
+# Visual Studio Code configs
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# pnpm uses npm for publishing a new version with
+# dependencies bundled but the npm lockfile is not needed
+# because pnpm use pnpm for installation
+package-lock.json
+
+__package_previews__
+.store
+
+privatePackages/store
+
+## Verdaccio storage
+storage
+
+yarn.lock
+
+RELEASE.md
+
+.jest-cache
+.verdaccio-cache
+.turbo
+
+## custom modules-dir fixture
+__fixtures__/custom-modules-dir/**/fake_modules/
+__fixtures__/custom-modules-dir/cache/
+__fixtures__/custom-modules-dir/patches/
