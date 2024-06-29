@@ -17,6 +17,9 @@ function createWindow(): void {
 		},
 	});
 
+	// To show the window without focusing on it every time source changes.
+	mainWindow.showInactive();
+
 	mainWindow.on('ready-to-show', () => {
 		mainWindow.show();
 	});

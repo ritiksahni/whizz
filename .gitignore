@@ -73,7 +73,6 @@ coverage
 _docpress
 .DS_Store
 
-lib
 dist
 tsconfig.tsbuildinfo
 
